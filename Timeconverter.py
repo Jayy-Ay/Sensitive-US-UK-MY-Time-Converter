@@ -29,7 +29,6 @@ def tzConvert(t, gmt):
         if tzNew[2] == "am": tzNew[2] = "pm"
         elif tzNew[2] == "pm": tzNew[2] = "am"
 
-
     # Fixing '0' to '00'
     if tzNew[1] < 10: 
         tzNew[1] = f"0{tzNew[1]}"
